@@ -5940,6 +5940,18 @@
           "WARNING: MedicationRequest.meta.profile[0]: Profile reference 'http://fkcfhir.org/fhir/StructureDefinition/FreseniusMirceraMedRequest' has not been checked because it is unknown, and fetching it resulted in the error Error parsing response message: This does not appear to be a FHIR resource (wrong namespace 'http://www.w3.org/1999/xhtml') (@ /)"
         ]
       }
+    },
+    {
+      "name" : "kind-logical-structure-def",
+      "file" : "labour-be-fund-struct-def.json",
+      "fetcher" : "standalone",
+      "version" : "4.0",
+      "java" : {
+        "errorCount" : 0,
+        "warningCount" : 0,
+        "output" : [
+        ]
+      }
     }
   ]
 }
