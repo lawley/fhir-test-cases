@@ -299,5 +299,6 @@
   <test gen="true" id="cdshooks-services" debug="false" register="cdshooks-element" description="abstract type in logical model"/> 
   <test gen="true" id="logical3" debug="false" description="reported issue with logical models using BackboneElement"/> 
   <test gen="true" id="logical-boo" debug="false" register="logical-foo" description="another reported issue with logical models using BackboneElement"/> 
-  <test gen="true" id="logical-goo" debug="false" register="logical-boo" description="another reported issue with logical models using BackboneElement"/> 
+  <test gen="true" id="logical-goo" debug="false" register="logical-boo" description="another reported issue with logical models using BackboneElement"/>
+  <test gen="true" id="au-location" debug="false" description="test that Location.address contains extension description instead of base address description"/>
 </snapshot-generation-tests>
