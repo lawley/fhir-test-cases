@@ -29253,6 +29253,18 @@
           }]
         }
       }
+    },
+    {
+      "name": "zib-MedicationAdministration",
+      "file": "zib-MedicationAdministration.xml",
+      "profiles": [
+        "nl-core-patient.xml"
+      ],
+      "java": {
+        "outcome": {
+          "resourceType": "OperationOutcome"
+        }
+      }
     }
   ]
 }

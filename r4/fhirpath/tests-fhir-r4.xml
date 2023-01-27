@@ -116,6 +116,10 @@ Any text enclosed within is ignored
 		<test name="testSimpleWithWrongContext" inputfile="patient-example.xml" mode="strict">
 			<expression invalid="semantic">Encounter.name.given</expression>
 		</test>
+
+		<test name="testAsteriskFail" inputfile="patient-example.xml" mode="strict">
+			<expression invalid="semantic">***</expression>
+		</test>
 	</group>
 
 	<group name="testObservations">
